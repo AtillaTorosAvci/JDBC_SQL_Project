@@ -11,7 +11,7 @@ public class _16_Query extends DBUtility {
     public void Query16() {
 
         String sorguSql = "select e.first_name,e.last_name,s.*, d.dept_name\n" +
-                "from salaries s\n" +
+                "from salaries s \n" +
                 "JOIN (\n" +
                 "    SELECT emp_no, MAX(salary) AS max_salary\n" +
                 "    FROM salaries\n" +
@@ -20,7 +20,8 @@ public class _16_Query extends DBUtility {
                 "JOIN dept_emp de on s.emp_no = de.emp_no\n" +
                 "JOIN employees e on s.emp_no = e.emp_no\n" +
                 "JOIN departments d on de.dept_no = d.dept_no\n" +
-                "order by s.salary desc";
+                "order by s.salary desc\n" +
+                "limit 5000";     // When no limit is set, the entire list cannot be displayed on the screen (331656).
 
         ArrayList<ArrayList<String>> returnedData = getListData(sorguSql);
 
