@@ -7,23 +7,6 @@ public class DBUtility {
     public static Connection baglanti;
     public static Statement sorguEkrani;
 
-
-    public static void main(String[] args) {
-        // Gönderilen sorgu sonucundaki tüm datayı bir List olarak döndüren metodu yazınız.
-
-        String sorguSql="select * from nationality";
-
-        ArrayList< ArrayList<String> > donenData= getListData(sorguSql);
-
-        for(ArrayList<String> satir : donenData) {
-            for (String kolonItem : satir)
-                System.out.print(kolonItem + "\t");
-
-            System.out.println();
-        }
-
-    }
-
     public static ArrayList< ArrayList<String> > getListData(String sorgu){
         ArrayList< ArrayList<String> > donecekTablo=new ArrayList<>();
         DBConnectionOpen();
@@ -50,8 +33,6 @@ public class DBUtility {
         return  donecekTablo;
     }
 
-
-
     public static void DBConnectionOpen() {
         String serverUrl = "jdbc:mysql://demo.mersys.io:33906/employees";  //port,dbname,mySql
         String username = "student";
@@ -72,6 +53,4 @@ public class DBUtility {
             System.out.println("ex.getMessage() = " + ex.getMessage());
         }
     }
-
-
 }
