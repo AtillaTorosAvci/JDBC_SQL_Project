@@ -1,3 +1,5 @@
+package JDBC_Utility;
+
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -51,7 +53,7 @@ public class DBUtility {
 
 
     public static void DBConnectionOpen() {
-        String serverUrl = "jdbc:mysql://demo.mersys.io:33906/sakila";  //port,dbname,mySql
+        String serverUrl = "jdbc:mysql://demo.mersys.io:33906/employees";  //port,dbname,mySql
         String username = "student";
         String password = "DEkzTd3#pzPm";
 
