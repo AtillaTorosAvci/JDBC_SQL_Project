@@ -1,5 +1,6 @@
 package Queries;
 
+
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -22,4 +23,5 @@ public class _01_Query {
             System.out.println();
         }
     }
+
 }
