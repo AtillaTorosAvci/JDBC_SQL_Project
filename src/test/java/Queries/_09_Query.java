@@ -13,6 +13,7 @@ public class _09_Query extends DBUtility {
 
         ArrayList<ArrayList<String>> returnedData = getListData(sorguSql);
 
+
         for (ArrayList<String> row : returnedData) {
             System.out.println("Departman: " + row.get(0) + " | Ortalama Maaş: " + row.get(1));
         }
