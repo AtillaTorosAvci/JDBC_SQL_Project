@@ -12,6 +12,7 @@ public class _15_Query extends DBUtility {
                 "JOIN salaries s ON e.emp_no = s.emp_no WHERE d.dept_name = 'Research' ORDER BY s.salary DESC LIMIT 1;";
         ArrayList<ArrayList<String>> returnedData = getListData(sorguSql);
 
+
         for (ArrayList<String> row : returnedData) {
             System.out.println("Çalışan Bilgisi:");
             System.out.println(" - No: " + row.get(0));
