@@ -5,14 +5,14 @@
 <h1 align="left">
             <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=28&duration=3000&pause=1000&color=26A69A&center=true&vCenter=true&width=720&lines=📘+Seamless+Java+%2B+SQL+Integration;💡+Query%2C+Code%2C+Automate%2C+Test;🧑‍💻+Java+Based+Database+Workflows" alt="Typing SVG" />
 </h1>
-
-<h1 align="left">
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=40C4FF&center=true&vCenter=true&width=750&lines=🚀+MySQL+%2B+JDBC+Automation+Project;📡+Database+Interaction+via+Java;🧪+Structured+Testing+%26+SQL+Execution" alt="Typing SVG" />
+</h1>
+<h1 align="right">
             <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=26&duration=3000&pause=1000&color=FFB300&center=true&vCenter=true&width=750&lines=🏁+Agile+Sprint+Challenge;📌+21%2B+SQL+Tasks+Automated;🧪+Validated+%26+Tested+via+JDBC;💼+Team-Based+Dev+Workflow" alt="Typing SVG" />
 </h1>
 
-<h1 align="right">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=40C4FF&center=true&vCenter=true&width=750&lines=🚀+MySQL+%2B+JDBC+Automation+Project;📡+Database+Interaction+via+Java;🧪+Structured+Testing+%26+SQL+Execution" alt="Typing SVG" />
-</h1>
+
 
 
 ## 📌 Project Description
