@@ -10,7 +10,7 @@ import static JDBC_Utility.DBUtility.getListData;
 public class _01_Query {
 
     @Test
-    public void Query01 () {
+    public void Query01 () { 
 
         String sorguSql = "select * from employees;";
 
