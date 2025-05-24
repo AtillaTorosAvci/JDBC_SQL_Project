@@ -36,9 +36,16 @@ This project uses the following tables:
 - 👨‍💼 `dept_manager`
 - 💵 `salaries`
 
-## ✅ Task List (Sprint 1)
+## 📚 Resources
 
-In this sprint, we will complete the following tasks using SQL and JDBC:
+- 📘 [MySQL Employee Schema Docs](https://dev.mysql.com/doc/employee/en/sakila-structure.html)
+- 🎥 [Techno Study YouTube](https://www.youtube.com/@Techno_Study)
+- 📸 [Techno Study Instagram](https://www.instagram.com/techno.study/)
+
+## 📊 SQL Queries on Employee Database
+This project demonstrates 21 useful SQL queries on an employee database, such as salary analysis, department-level summaries, and demographic insights. Great for practicing data retrieval and aggregation skills.
+
+### 📋 Query List (Sprint 1)
 
 1. 📋 List all employees in department `D001`  
 2. 🧑‍💼 List all employees in the "Human Resources" department  
@@ -53,18 +60,14 @@ In this sprint, we will complete the following tasks using SQL and JDBC:
 11. 📈 Find salary increases for employee `10102` using `to_date` column  
 12. 🏆 Find the employee with the highest salary  
 13. 🕒 Find the latest salary for each employee  
-14. 🥇 Show the first name, last name, and highest salary of the top-paid employee in the "Sales" department (sorted descending)  
-15. 🔬 Find the employee with the highest average salary in the "Research" department  
-16. 💼 For each department, identify the employee with the highest single salary (list dept name, employee name, salary)  
-18. 📅 List employees hired before Jan 1, 1990, ordered alphabetically  
-19. 📅 List employees hired between Jan 1, 1985 and Dec 31, 1989, ordered by hire date  
-20. 💵 List employees in the "Sales" department hired between Jan 1, 1985 and Dec 31, 1989, sorted by descending salary  
-21. 👥 Employee demographics:  
-    - a) Count of male employees  
-    - b) Count of female employees  
-    - c) Gender distribution by grouping  
-    - d) Total number of employees  
-
+14. 🥇 Top-paid employee in the "Sales" department  
+15. 🔬 Top average salary in "Research" department  
+16. 💼 Highest salary per department  
+17. 📈 Highest average salary per department  
+18. 📅 Employees hired before Jan 1, 1990  
+19. 📅 Employees hired between Jan 1, 1985 and Dec 31, 1989  
+20. 💵 "Sales" hires between 1985–1989, sorted by salary  
+21. 👥 Employee demographics (counts & distribution)
 
 ## 🧪 Testing & Validation
 
@@ -74,11 +77,7 @@ Each query will be:
 - ✅ Verified using assertions
 - 🖥️ Logged to the console
 
-## 📚 Resources
 
-- 📘 [MySQL Employee Schema Docs](https://dev.mysql.com/doc/employee/en/sakila-structure.html)
-- 🎥 [Techno Study YouTube](https://www.youtube.com/@Techno_Study)
-- 📸 [Techno Study Instagram](https://www.instagram.com/techno.study/)
 
 
 ## 👥 Contributors
